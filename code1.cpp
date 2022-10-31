@@ -1,4 +1,4 @@
-// A Simple C++ program to reverse a string
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -13,7 +13,7 @@ void reverseStr(string& str)
 		swap(str[i], str[n - i - 1]);
 }
 
-// Driver program
+
 int main()
 {
 	string str = "geeksforgeeks";
